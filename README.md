@@ -1,8 +1,8 @@
 # Sudoku Solver
 
-Implementation of a bot that efficiently solves Sudoku puzzles.
+Java implementation of a bot that efficiently solves Sudoku puzzles.
 
-The algorithm implements the backtracking search algorithm with  forward checking and two heuristics:
+The algorithm implements the backtracking search algorithm with  forward checking and three heuristics:
 Minimum- remaining-values heuristic, degree heuristic, and least- constraining-value heuristic.
 More information can be found in the attached pdf.
 
@@ -27,5 +27,3 @@ Alldiff( (0,1), (1,1), (2,1) ... (8,1) )
 ...
 
 Alldiff( (0,0), (0,1), (0,2), (1,0), (1,1), (1, 2) , (2,0), (2,1), (2, 2)) Alldiff( (3,0), (3,1), (3,2), (4,0), (4,1), (4, 2) , (5,0), (5,1), (5, 2)) ...
-
-The Sudoku solver was implemented in Java. 
